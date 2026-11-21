@@ -1,0 +1,40 @@
+{
+    "project": "SurfaceTarget-CRC",
+    "patch": "5.5",
+    "created_at_utc": "2026-11-21T08:56:48.483453+00:00",
+    "ranking_source": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_prioritization_v1.csv",
+    "ranking_source_sha256": "8f36e03da10ea3d30923c7e7c5165f787d0808eae7b9a9d8d4be6a91d846ee06",
+    "hpa_tissue_source": "/content/SurfaceTarget-CRC/results/tables/hpa_candidate_tissue_level_profiles.csv",
+    "hpa_tissue_sha256": "a0c62088e93d3307d4f81cffd5f1e481a5d3d64758908e8d56023eb7a8308f10",
+    "candidate_count": 948,
+    "surface_review_candidates": 111,
+    "ranking_scenarios": [
+        "protein_first",
+        "normal_review_first",
+        "rna_discovery_first"
+    ],
+    "top_n_sensitivity": [
+        10,
+        20,
+        30
+    ],
+    "three_scenario_top20_count": 3,
+    "evidence_dossier_count": 54,
+    "ranking_robustness_policy": "Distinguish agreement under two scenarios from agreement under all three scenarios",
+    "normal_tissue_policy": "Inspect all available HPA tissue profiles, preserving missingness and reliability information",
+    "malignant_cell_origin_inferred": false,
+    "clinical_safety_inferred": false,
+    "therapeutic_efficacy_scores": false,
+    "previous_rankings_modified": false,
+    "candidate_exclusions": 0,
+    "limitations": [
+        "Ranking scenarios are not independent experimental validation studies.",
+        "Agreement under correlated scenarios may overstate apparent rank stability.",
+        "HPA tissue-level maximum staining does not resolve all cell types.",
+        "Normal IHC evidence does not establish clinical toxicity or safety.",
+        "Bulk tumor enrichment does not identify malignant-cell expression.",
+        "Protein enrichment does not demonstrate antibody accessibility.",
+        "CRISPR dependency does not directly measure antibody efficacy.",
+        "No candidate has been experimentally validated."
+    ]
+}

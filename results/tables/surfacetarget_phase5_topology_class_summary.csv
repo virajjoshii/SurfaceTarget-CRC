@@ -1,0 +1,8 @@
+phase5_topology_class,candidates,cptac_supported,normal_ihc_available,depmap_available
+GPI-anchored membrane-associated,8,1,6,8
+Membrane with annotated extracellular region,104,2,79,104
+Membrane-associated; extracellular topology unresolved,64,1,48,64
+No qualifying surface-topology evidence in extracted annotations,552,10,402,551
+Other or insufficient topology annotation,4,0,2,2
+Secreted/extracellular; membrane attachment not established,128,5,86,126
+Transmembrane; surface localization unresolved,88,1,67,88

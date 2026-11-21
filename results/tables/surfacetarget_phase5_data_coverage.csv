@@ -1,0 +1,8 @@
+source,evidence,genes,interpretation
+TCGA,Research screening candidates,948,Genes retained after the exploratory transcriptomic workflow
+CPTAC,Qualifying tumor-associated protein enrichment,20,Exploratory enrichment criteria met; not therapeutic validation
+HPA,Normal-tissue IHC records,690,Normal-tissue observations available; not clinical safety assessment
+UniProt,Reviewed protein mappings,944,Reviewed protein annotation available
+HPA,Subcellular annotations,755,HPA immunofluorescence annotation available
+DepMap,Verified gene mappings,943,HGNC-validated gene identity
+DepMap,High-coverage CRC gene effects,923,Measurements in at least 65 of 81 CRC models

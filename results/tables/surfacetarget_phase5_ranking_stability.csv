@@ -1,0 +1,4 @@
+scenario_a,scenario_b,top_n,shared_candidates,jaccard_similarity
+protein_first,normal_review_first,20,18,0.8181818181818182
+protein_first,rna_discovery_first,20,4,0.1111111111111111
+normal_review_first,rna_discovery_first,20,3,0.08108108108108109

@@ -1,0 +1,34 @@
+{
+  "project": "SurfaceTarget-CRC",
+  "patch": "6.2",
+  "generated_at_utc": "2026-11-21T09:15:50.244850+00:00",
+  "report_path": "/content/SurfaceTarget-CRC/reports/SurfaceTarget_CRC_Formal_Research_Report_Draft_v1.md",
+  "report_sha256": "350448802eab7a56fe487c468ee45a13f8a0481618115b112e8b7a7fb2a6e0d3",
+  "report_claim_audit": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase6_report_claim_audit.csv",
+  "report_claim_audit_sha256": "6ca56063b2b931103b874f944a79137a1dcf8dbfd27e864d6b346f3d039548f6",
+  "report_panel_summary": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase6_report_panel_summary.csv",
+  "report_panel_summary_sha256": "56d70e9acbd6094dec4218b78e53800ba4edbcb3836f7bc5a9787d1de37c4353",
+  "sources_sha256": {
+    "Panel": "303116c1a552abfe24f972d99a3358bf6181373a77512c87116f3821fc5815cf",
+    "948-gene audit": "85095a6bfbd3e7071bad0473270e247fe5ed27b0dd4126fa44b6df00945d2b8a",
+    "Validation roadmap": "3663bb0bf0d608b7a9d17e4b1214436f225791e826123cf110bf6922ea67c513",
+    "Rank correlations": "8961c02868d7c281631ed9170607c73fa8d54fb682f6702f299a747c81b188dd",
+    "Figure manifest": "3f227e2f78846ad809381c832fa40a1b8b42cfc5d6b14116c10750f844a49173",
+    "Panel provenance": "40571a45f913ef38a249cbcceaf2c67cb686367b78cdbb0fb1a4430099b567ec",
+    "Figure provenance": "eec43fdc54a59d16954db5de0678adb14a7e4daff98b1a48734c08e2d8160c4c"
+  },
+  "figure_checksums_verified": true,
+  "panel_count": 15,
+  "full_candidate_count": 948,
+  "scenario_comparison_performed": true,
+  "new_target_ranking": false,
+  "clinical_safety_inferred": false,
+  "experimental_validation_performed": false,
+  "outstanding_before_publication": [
+    "Confirm detailed Phase 1\u20134 cohort methods and thresholds from original notebooks and provenance",
+    "Add formal source accessions, version identifiers, and bibliographic references",
+    "Review narrative claims with a domain expert",
+    "Inspect report figures at final export resolution",
+    "Confirm permissions and licensing before publishing data or derived files"
+  ]
+}

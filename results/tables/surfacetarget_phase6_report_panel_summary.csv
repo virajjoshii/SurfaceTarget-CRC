@@ -1,0 +1,16 @@
+gene_id,gene_name,phase56_review_group,phase5_rna_conservative_log2fc,phase5_protein_evidence_state,phase5_topology_class,phase55_normal_tissues_medium_high,depmap_crc_median_gene_effect
+ENSG00000107159.13,CA9,A | Cross-scenario surface hypotheses,5.466189369289762,Sparse paired-protein measurements,Membrane with annotated extracellular region,4.0,-0.0221648883508328
+ENSG00000148848.14,ADAM12,A | Cross-scenario surface hypotheses,4.520450294434733,Paired-protein coverage unavailable,Membrane with annotated extracellular region,2.0,-0.0492353401960915
+ENSG00000015520.15,NPC1L1,A | Cross-scenario surface hypotheses,4.217916652135238,Paired-protein coverage unavailable,Membrane with annotated extracellular region,4.0,-0.1208468810162653
+ENSG00000062038.14,CDH3,B | Additional surface-antigen hypotheses,6.306933410428549,Sparse paired-protein measurements,Membrane with annotated extracellular region,16.0,0.0062730619272653
+ENSG00000163347.6,CLDN1,B | Additional surface-antigen hypotheses,5.050251651479202,Sparse paired-protein measurements,Membrane with annotated extracellular region,20.0,0.0210819668070446
+ENSG00000015413.9,DPEP1,B | Additional surface-antigen hypotheses,4.639715595577735,Qualifying MSS paired-protein enrichment,GPI-anchored membrane-associated,6.0,-0.0394017776037091
+ENSG00000103257.9,SLC7A5,B | Additional surface-antigen hypotheses,3.1869054637305445,Qualifying MSS paired-protein enrichment,Membrane with annotated extracellular region,39.0,-0.3373385374640873
+ENSG00000241186.10,TDGF1,B | Additional surface-antigen hypotheses,3.4058100507658056,Paired-protein coverage unavailable,GPI-anchored membrane-associated,,-0.5182884236459689
+ENSG00000139292.13,LGR5,B | Additional surface-antigen hypotheses,3.0700728405461564,Paired-protein coverage unavailable,Membrane with annotated extracellular region,9.0,-0.0492555012813919
+ENSG00000078098.14,FAP,C | Stromal-targeting hypothesis,3.8099317948142906,Qualifying MSS paired-protein enrichment,Membrane with annotated extracellular region,19.0,-0.0136899876551837
+ENSG00000138074.15,SLC5A6,D | Membrane-accessibility investigations,1.899212190645159,Qualifying MSS paired-protein enrichment,Membrane-associated; extracellular topology unresolved,8.0,-0.0233012303755233
+ENSG00000103888.17,CEMIP,D | Membrane-accessibility investigations,5.5006361832682495,Sparse paired-protein measurements,Membrane-associated; extracellular topology unresolved,,-0.0012258750046768
+ENSG00000164932.13,CTHRC1,E | Extracellular microenvironment hypotheses,3.923258818024265,Qualifying MSS paired-protein enrichment,Secreted/extracellular; membrane attachment not established,22.0,-0.0001885779450815
+ENSG00000101825.8,MXRA5,E | Extracellular microenvironment hypotheses,1.3745922202318968,Qualifying MSS paired-protein enrichment,Secreted/extracellular; membrane attachment not established,0.0,0.0250058802680954
+ENSG00000106483.12,SFRP4,E | Extracellular microenvironment hypotheses,3.681718275151796,Qualifying MSS paired-protein enrichment,Secreted/extracellular; membrane attachment not established,2.0,0.0341136550230901

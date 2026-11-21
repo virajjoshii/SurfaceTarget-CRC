@@ -1,0 +1,94 @@
+{
+    "project": "SurfaceTarget-CRC",
+    "patch": "5.4",
+    "created_at_utc": "2026-11-21T08:50:55.316122+00:00",
+    "source": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_evidence_triage_v1.csv",
+    "source_sha256": "b935e59c0e9f034f59278114a3ff22b72fbd363fb1bd46394d9aff89cc2c054d",
+    "output": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_prioritization_v1.csv",
+    "output_sha256": "8f36e03da10ea3d30923c7e7c5165f787d0808eae7b9a9d8d4be6a91d846ee06",
+    "candidate_count": 948,
+    "surface_lane_candidates": 111,
+    "stromal_lane_candidates": 1,
+    "stronger_surface_annotations": 112,
+    "qualifying_cptac_enrichment_genes": 20,
+    "ranking_method": "Three lexicographic research-priority scenarios within biological follow-up lanes",
+    "scenarios": {
+        "protein_first": {
+            "ordering_columns": [
+                "phase5_qualifying_protein_evidence",
+                "phase5_normal_review_order",
+                "phase5_rna_conservative_log2fc",
+                "phase5_rna_tier_a_detection_fraction",
+                "gene_id"
+            ],
+            "ascending": [
+                false,
+                true,
+                false,
+                false,
+                true
+            ],
+            "description": "Qualifying protein enrichment first; then normal-tissue review status; then conservative RNA effect size"
+        },
+        "normal_review_first": {
+            "ordering_columns": [
+                "phase5_normal_review_order",
+                "phase5_qualifying_protein_evidence",
+                "phase5_rna_conservative_log2fc",
+                "phase5_rna_tier_a_detection_fraction",
+                "gene_id"
+            ],
+            "ascending": [
+                true,
+                false,
+                false,
+                false,
+                true
+            ],
+            "description": "Normal-tissue expression review first; then qualifying protein evidence; then conservative RNA effect size"
+        },
+        "rna_discovery_first": {
+            "ordering_columns": [
+                "phase5_rna_conservative_log2fc",
+                "phase5_rna_tier_a_detection_fraction",
+                "phase5_qualifying_protein_evidence",
+                "phase5_normal_review_order",
+                "gene_id"
+            ],
+            "ascending": [
+                false,
+                false,
+                false,
+                true,
+                true
+            ],
+            "description": "Conservative RNA enrichment first; then Tier A detection breadth; then protein and normal-tissue context"
+        }
+    },
+    "rna_metric": "Minimum of baseline and QC-screened tumor-vs-normal log2 fold changes",
+    "rna_independence_note": "Baseline and QC-screened analyses are related sensitivity analyses, not independent experiments",
+    "protein_policy": "Qualifying enrichment treated as supporting evidence; absence of qualifying enrichment is not interpreted as absent protein",
+    "normal_tissue_policy": "Missing IHC data assigned a distinct unassessed category, never a favorable selectivity classification",
+    "normal_review_order_interpretation": "Scenario-specific annotation-review priority; not a quantitative clinical toxicity estimate",
+    "dependency_policy": "DepMap CRISPR gene effects retained as context but not used to determine antibody-antigen prioritization",
+    "cross_lane_rank_comparison_allowed": false,
+    "top_n_for_sensitivity": 20,
+    "stable_followup_rule": "Within the same lane, appears in the top 20 under at least two of three scenarios",
+    "candidate_exclusions": 0,
+    "therapeutic_efficacy_scores": false,
+    "clinical_safety_predictions": false,
+    "experimentally_validated_targets": false,
+    "limitations": [
+        "The research-priority ordering depends on selected evidence hierarchy assumptions.",
+        "A high ranking does not imply a clinically favorable therapeutic window.",
+        "Normal-tissue IHC measurements are not direct toxicity assessments.",
+        "Missing normal-tissue IHC evidence does not imply low expression.",
+        "Bulk tumor RNA and proteomics do not establish malignant-cell origin.",
+        "CPTAC enrichment is exploratory and based on measured protein coverage.",
+        "GPI anchoring and extracellular topology do not establish antibody accessibility.",
+        "CRISPR dependency is not required for antibody-drug conjugate targeting.",
+        "The DepMap colorectal cohort has not been confirmed MSS.",
+        "TCGA Tier B is computationally low-MSI rather than independently confirmed MSS.",
+        "No target has been experimentally validated."
+    ]
+}

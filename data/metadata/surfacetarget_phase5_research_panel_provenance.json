@@ -1,0 +1,80 @@
+{
+    "project": "SurfaceTarget-CRC",
+    "patch": "5.6A",
+    "created_at_utc": "2026-11-21T09:02:44.921992+00:00",
+    "source_files": {
+        "Phase 5.4 ranking": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_prioritization_v1.csv",
+        "Phase 5.5 tissue audit": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_all_tissue_evidence_audit.csv",
+        "Three-scenario candidates": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_three_scenario_top20.csv",
+        "Scenario correlations": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_scenario_rank_correlations.csv",
+        "Phase 5.4 provenance": "/content/SurfaceTarget-CRC/data/metadata/surfacetarget_phase5_prioritization_provenance.json",
+        "Phase 5.5 provenance": "/content/SurfaceTarget-CRC/data/metadata/surfacetarget_phase5_robustness_provenance.json"
+    },
+    "source_sha256": {
+        "Phase 5.4 ranking": "8f36e03da10ea3d30923c7e7c5165f787d0808eae7b9a9d8d4be6a91d846ee06",
+        "Phase 5.5 tissue audit": "02d76f232021e8b9b70a5158bfa84127e763e4ecfc92193063ef1d82ee920d77",
+        "Three-scenario candidates": "510187f54150e4cd3104224c8c8b1ab388585777a9b3c42260063614b53055d5",
+        "Scenario correlations": "8961c02868d7c281631ed9170607c73fa8d54fb682f6702f299a747c81b188dd",
+        "Phase 5.4 provenance": "9dbfe3796cf7c29dc61ea1d64888def6ed915acd96248b06eafd6bfac37a4768",
+        "Phase 5.5 provenance": "af97d985df8bca450ac048be79242cce2627c9437de297ed40694967af439385"
+    },
+    "integrity_validation": "Exact gene, missingness, categorical and integer correspondence; strict floating-point tolerance for continuous CSV round-trip measurements",
+    "integrity_audit": "/content/SurfaceTarget-CRC/data/metadata/surfacetarget_phase5_roundtrip_integrity_audit.json",
+    "candidate_universe": 948,
+    "research_panel_size": 15,
+    "panel_selection": {
+        "A | Cross-scenario surface hypotheses": [
+            "CA9",
+            "ADAM12",
+            "NPC1L1"
+        ],
+        "B | Additional surface-antigen hypotheses": [
+            "CDH3",
+            "CLDN1",
+            "DPEP1",
+            "SLC7A5",
+            "TDGF1",
+            "LGR5"
+        ],
+        "C | Stromal-targeting hypothesis": [
+            "FAP"
+        ],
+        "D | Membrane-accessibility investigations": [
+            "SLC5A6",
+            "CEMIP"
+        ],
+        "E | Extracellular microenvironment hypotheses": [
+            "CTHRC1",
+            "MXRA5",
+            "SFRP4"
+        ]
+    },
+    "cross_scenario_consistent_genes": [
+        "ADAM12",
+        "CA9",
+        "NPC1L1"
+    ],
+    "panel_method": "Cross-scenario ranking agreement plus explicitly selected complementary biological research hypotheses",
+    "ranking_scenario_independence": false,
+    "therapeutic_scores_assigned": false,
+    "clinical_safety_inferred": false,
+    "experimental_validation_completed": false,
+    "all_candidate_genes_preserved": true,
+    "panel_output": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_research_panel_v1.csv",
+    "panel_sha256": "303116c1a552abfe24f972d99a3358bf6181373a77512c87116f3821fc5815cf",
+    "full_audit_output": "/content/SurfaceTarget-CRC/results/tables/surfacetarget_phase5_full_universe_panel_audit.csv",
+    "full_audit_sha256": "85095a6bfbd3e7071bad0473270e247fe5ed27b0dd4126fa44b6df00945d2b8a",
+    "report_output": "/content/SurfaceTarget-CRC/reports/SurfaceTarget_CRC_Phase5_Research_Panel.md",
+    "report_sha256": "e4206825ae440e5a5305fe0a6c104f9d8f56ba1a04a27116040e80c6853001ff",
+    "limitations": [
+        "Panel selection is a research review decision, not a clinically validated ranking.",
+        "Two prioritization scenarios are strongly correlated.",
+        "RNA discovery includes computationally low-MSI rather than exclusively independently confirmed MSS cases.",
+        "DepMap colorectal models do not have independently verified MSS status here.",
+        "Protein-level measurement coverage varies substantially across genes.",
+        "Bulk molecular measurements cannot establish malignant-cell origin.",
+        "Normal-tissue IHC is descriptive and cannot establish clinical safety.",
+        "Cell-surface topology does not prove antibody binding or accessibility.",
+        "No new experimental target validation was performed."
+    ]
+}

@@ -1,0 +1,4 @@
+,protein_first,normal_review_first,rna_discovery_first
+protein_first,1.0,0.985968760968761,0.1885837135837136
+normal_review_first,0.985968760968761,1.0,0.15888908388908388
+rna_discovery_first,0.1885837135837136,0.15888908388908388,1.0
