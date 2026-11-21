@@ -1,3 +1,5 @@
-# Analysis Notebook
+# Analysis Notebooks
 
-Add the executed SurfaceTarget-CRC Colab notebook here after manually checking it for credentials, personal information and excessive embedded outputs.
+Browse the phase- and patch-specific notebooks using [INDEX.md](INDEX.md).
+
+The code was extracted from the original Google Colab workflow. Execution outputs were removed for repository publication.

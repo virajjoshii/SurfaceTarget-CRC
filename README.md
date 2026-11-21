@@ -132,3 +132,16 @@ Exploratory computational research.
 
 The findings represent target hypotheses,
 not clinically validated therapeutic recommendations.
+
+
+## Phase-wise analysis notebooks
+
+The complete analysis notebook has been reorganized
+into phase- and patch-specific notebooks.
+
+See the [Analysis Notebook Index](notebooks/INDEX.md)
+for the individual notebooks and original workflow order.
+
+The notebooks are source-preserving extracts of a
+Colab workflow. They are not claimed to be independently
+executable without earlier project data and state.
